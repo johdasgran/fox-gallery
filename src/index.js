@@ -1,4 +1,4 @@
-import { register_image } from "./lazy";
+import { register_image } from "./lazy.js";
 
 const min = 1;
 const max = 123;
@@ -15,7 +15,7 @@ const container_images = document.querySelector("#images");
 const create_imagen = () => {
 
     const container_imagen = document.createElement("div");
-    container_imagen.className = "p-4 bg-gris";
+    container_imagen.className = "bg-gris";
 
     const imagen = document.createElement("img");
     imagen.dataset.src = `https://randomfox.ca/images/${randomfox()}.jpg`;
