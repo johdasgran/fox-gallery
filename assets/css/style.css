@@ -23,7 +23,7 @@
 html {
   font-size: 62.5%;
   font-family: "Fira Code", monospace;
-  min-width: 320px;
+  max-width: 320px;
 }
 
 h1 {
