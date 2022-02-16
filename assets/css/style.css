@@ -40,10 +40,22 @@ p {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
   background-color: rgb(251, 223, 245);
 }
 
 .bg-gris {
   background-color: rgb(251, 223, 245);
   padding: 4px;
+}
+
+main {
+  display: grid;
+  grid-column: auto;
+}
+
+.button {
+  width: auto;
 }
