@@ -23,7 +23,8 @@
 html {
   font-size: 62.5%;
   font-family: "Fira Code", monospace;
-  max-width: 320px;
+  /* width: 320px; 
+  margin: 0 auto; */
 }
 
 h1 {
@@ -39,33 +40,61 @@ p {
   font-weight: var(--medium);
 }
 
-body {
+
+.header {
   display: flex;
-  flex-direction: column;
   place-content: center;
-  background-color: rgb(251, 223, 245);
 }
 
+.header img {
+  width: 300px;
+}
+
+
+
 .bg-gris {
-  background-color: rgb(251, 223, 245);
+  /* background-color: rgb(251, 223, 245); */
   padding: 4px;
 }
 
 main {
-  display: grid;
-  grid-column: auto;
+  margin: 0 auto;
+  width: 350px;
+  height: 500px;
+  overflow-y: scroll;
 }
 
 
 
-.images {
+.container {
   display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100vh;
+  margin: 0 auto;
+  width: 350px;
+  /* min-width: 320px;
+  max-width: 500px; */
+  background-color: #fffbf5;
+}
+
+
+.images  {
+  display: grid;
+  place-content: center;
 }
 
 .button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
   background: url(../images/button-add-fox.svg) no-repeat ;
   height: 80px;
   width: 80px;
   cursor: pointer;
   border: none;
+}
+
+.img {
+  border-radius: 24px;
 }

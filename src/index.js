@@ -19,7 +19,7 @@ const create_imagen = () => {
   const imagen = document.createElement("img");
   imagen.dataset.src = `https://randomfox.ca/images/${randomfox()}.jpg`;
   imagen.width = "320";
-  imagen.className = "mx-auto ";
+  imagen.className = "img ";
 
   container_imagen.appendChild(imagen);
 
