@@ -56,10 +56,16 @@ main {
   grid-column: auto;
 }
 
-.button {
-  width: auto;
-}
+
 
 .images {
   display: flex;
+}
+
+.button {
+  background: url(../images/button-add-fox.svg) no-repeat ;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+  border: none;
 }
