@@ -59,3 +59,7 @@ main {
 .button {
   width: auto;
 }
+
+.images {
+  display: flex;
+}
